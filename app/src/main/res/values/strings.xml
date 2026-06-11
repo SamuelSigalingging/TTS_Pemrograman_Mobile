@@ -28,5 +28,6 @@
     <string name="btn_spanish">Spanyol</string>
     <string name="btn_back">KEMBALI</string>
     <string name="msg_success">Data Berhasil Disimpan!</string>
+    <string name="title_detail_account">Ringkasan Akun</string>
 
 </resources>

@@ -30,4 +30,5 @@
     <!-- Detail -->
     <string name="btn_back">BACK</string>
     <string name="msg_success">Data Successfully Saved!</string>
+    <string name="title_detail_account">Account Summary</string>
 </resources>

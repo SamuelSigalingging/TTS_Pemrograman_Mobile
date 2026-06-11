@@ -29,10 +29,6 @@ class MainActivity : AppCompatActivity() {
                     loadFragment(AccountFragment())
                     true
                 }
-                R.id.nav_setting -> {
-                    loadFragment(SettingFragment())
-                    true
-                }
                 else -> false
             }
         }

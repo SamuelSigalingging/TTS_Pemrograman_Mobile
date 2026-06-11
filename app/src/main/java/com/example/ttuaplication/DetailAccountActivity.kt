@@ -2,6 +2,7 @@ package com.example.ttuaplication
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import android.widget.Toast
 import com.example.ttuaplication.databinding.ActivityDetailAccountBinding
 
 class DetailAccountActivity : AppCompatActivity() {
@@ -13,10 +14,9 @@ class DetailAccountActivity : AppCompatActivity() {
         binding = ActivityDetailAccountBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        supportActionBar?.apply {
-            title = "Ringkasan Akun"
-            setDisplayHomeAsUpEnabled(true)
-        }
+        supportActionBar?.hide()
+
+        Toast.makeText(this, R.string.msg_success, Toast.LENGTH_SHORT).show()
 
         val bundle = intent.extras
         if (bundle != null) {

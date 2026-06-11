@@ -36,7 +36,7 @@ class DashboardFragment : Fragment() {
 
         binding.tvLang.setOnClickListener {
             val mainActivity = activity as? MainActivity
-            mainActivity?.setSelectedNavItem(R.id.nav_setting)
+            mainActivity?.loadFragment(SettingFragment())
         }
 
         binding.btnOpenDoc.setOnClickListener {
