@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">TTUAplication</string>
+
+    <!-- Navigation -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_account">Account</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Dashboard -->
+    <string name="title_dashboard">EduDashboard</string>
+    <string name="label_language">Language</string>
+    <string name="summary_title">Lecture Material Summary:</string>
+    <string name="summary_content">- Layout &amp; View (ConstraintLayout)\n- ViewBinding Interaction\n- Intent (Explicit &amp; Implicit)\n- Fragment Lifecycle</string>
+    <string name="btn_open_doc">OPEN DOCUMENTATION</string>
+
+    <!-- Account -->
+    <string name="label_name">Name :</string>
+    <string name="hint_name">Enter Name</string>
+    <string name="label_nim">NIM :</string>
+    <string name="hint_nim">Enter NIM</string>
+    <string name="label_ipk">GPA :</string>
+    <string name="hint_ipk">Target GPA (0.00 - 4.00)</string>
+    <string name="btn_save_profile">SAVE PROFILE</string>
+
+    <!-- Settings -->
+    <string name="btn_english">English</string>
+    <string name="btn_indonesian">Indonesian</string>
+    <string name="btn_spanish">Spanish</string>
+
+    <!-- Detail -->
+    <string name="btn_back">BACK</string>
+    <string name="msg_success">Data Successfully Saved!</string>
+</resources>

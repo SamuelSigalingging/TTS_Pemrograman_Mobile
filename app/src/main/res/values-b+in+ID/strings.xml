@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">TTUAplication</string>
+
+    <!-- Navigasi -->
+    <string name="nav_dashboard">Dasbor</string>
+    <string name="nav_account">Akun</string>
+    <string name="nav_settings">Pengaturan</string>
+
+    <!-- Dashboard -->
+    <string name="title_dashboard">EduDashboard</string>
+    <string name="label_language">Bahasa</string>
+    <string name="summary_title">Ringkasan Materi Kuliah:</string>
+    <string name="summary_content">- Layout &amp; View (ConstraintLayout)\n- Interaksi ViewBinding\n- Intent (Eksplisit &amp; Implisit)\n- Siklus Hidup Fragment</string>
+    <string name="btn_open_doc">BUKA DOKUMENTASI</string>
+
+    <!-- Akun -->
+    <string name="label_name">Nama :</string>
+    <string name="hint_name">Masukkan Nama</string>
+    <string name="label_nim">NIM :</string>
+    <string name="hint_nim">Masukkan NIM</string>
+    <string name="label_ipk">IPK :</string>
+    <string name="hint_ipk">Target IPK (0.00 - 4.00)</string>
+    <string name="btn_save_profile">SIMPAN PROFIL</string>
+
+    <!-- Pengaturan -->
+    <string name="btn_english">Inggris</string>
+    <string name="btn_indonesian">Indonesia</string>
+    <string name="btn_spanish">Spanyol</string>
+
+    <!-- Detail -->
+    <string name="btn_back">KEMBALI</string>
+    <string name="msg_success">Data Berhasil Disimpan!</string>
+</resources>
